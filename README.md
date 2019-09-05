@@ -1,6 +1,8 @@
 # Hybrid AStar Trailer
 
 [![Build Status](https://travis-ci.org/AtsushiSakai/HybridAStarTrailer.svg?branch=master)](https://travis-ci.org/AtsushiSakai/HybridAStarTrailer)
+[![Build status](https://ci.appveyor.com/api/projects/status/1vlcih2j40h4royc?svg=true)](https://ci.appveyor.com/project/AtsushiSakai/hybridastartrailer)
+[![Coverage Status](https://coveralls.io/repos/github/AtsushiSakai/HybridAStarTrailer/badge.svg?branch=master)](https://coveralls.io/github/AtsushiSakai/HybridAStarTrailer?branch=master)
 
 A path planning algorithm based on Hybrid A\* for trailer truck.
 
@@ -37,7 +39,7 @@ This planner can generate a feasible path from diffent start states.
 
 # Requirements
 
-- [Julia 0.6](https://julialang.org/downloads/)
+- [Julia 1.1.0](https://julialang.org/downloads/)
 
 - [PyPlot](https://github.com/JuliaPy/PyPlot.jl)
 
@@ -88,6 +90,10 @@ This algorithm has 3 novelies for traier parking.
 2. Adding the Jackknif cost: Σ\|θ0 - θ1\|.
 
 3. Two rectangle (truck and trailer) collision check.
+
+# Other materials
+
+- [トレーラトラックの自動駐車計画アルゴリズムの紹介@ROS Japan UG #24 勉強会](https://docs.google.com/presentation/d/13tuWC_POpDRrIvYQc34wHeW895TP9278VQiRmRluus4/edit?usp=sharing) (in Japanease)
 
 
 # License 
